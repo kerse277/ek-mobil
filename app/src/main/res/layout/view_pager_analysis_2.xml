@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/view_pager_layout_2"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hair_analysis_2a"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_marginStart="10dp"
+                android:id="@+id/analysis_group_2A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_dogal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2A1"
+                    android:text="@string/hair_analysis_2a1" />
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_boyali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2A2"
+                    android:text="@string/hair_analysis_2a2" />
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_rofleli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2A3"
+                    android:text="@string/hair_analysis_2a3" />
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_permali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2A4"
+                    android:text="@string/hair_analysis_2a4" />
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_duz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2A5"
+                    android:text="@string/hair_analysis_2a5" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hair_analysis_hair_2b"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_marginStart="10dp"
+                android:id="@+id/analysis_group_2B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_ince"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2B1"
+                    android:text="@string/hair_analysis_2b1" />
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2B2"
+                    android:text="@string/hair_analysis_2b2" />
+
+                <RadioButton
+                    android:id="@+id/analysis_rb_kalin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="2B3"
+                    android:text="@string/hair_analysis_2b3" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/analysis_back_btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/forward_button_shape"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/analysis_forward_btn_2"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/forward_button_shape"
+        android:text="@string/forward"
+        android:textColor="@color/white" />
+</RelativeLayout>
+

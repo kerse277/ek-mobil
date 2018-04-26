@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/personel_popup_make_an_appointment"
+            android:title="@string/popup_make_an_appointment" />
+
+        <!--<item-->
+            <!--android:id="@+id/personel_popup_default_hairdresser"-->
+            <!--android:title="@string/popup_default_hair_dresser" />-->
+    </group>
+
+    <group
+        android:checkableBehavior="none"
+        android:enabled="true"
+        android:visible="true">
+        <item
+            android:id="@+id/personel_popup_phone"
+            android:title="@string/popup_phone" />
+
+        <item
+            android:id="@+id/personel_popup_sms"
+            android:title="@string/popup_sms" />
+    </group>
+</menu>

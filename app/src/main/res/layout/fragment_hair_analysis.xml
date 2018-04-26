@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ekmobil.fragment.HairAnalysisFragment">
+
+    <com.ekmobil.UI.NonSwipeableViewPager
+        android:id="@+id/hair_analysis_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/view_pager_analysis_1" />
+
+        <include layout="@layout/view_pager_analysis_2" />
+
+        <include layout="@layout/view_pager_analysis_3" />
+
+        <include layout="@layout/view_pager_analysis_4" />
+
+        <include layout="@layout/view_pager_analysis_5" />
+
+        <include layout="@layout/view_pager_analysis_6" />
+
+        <include layout="@layout/view_pager_analysis_7" />
+
+
+    </com.ekmobil.UI.NonSwipeableViewPager>
+
+    <include
+        layout="@layout/progress"
+        android:visibility="gone" />
+</RelativeLayout>

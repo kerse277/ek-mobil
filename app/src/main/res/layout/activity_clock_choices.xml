@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClockChoicesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/clock_choices_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appbar_color"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="@string/choice_appointment_date" />
+
+    <TextView
+        android:id="@+id/clock_choices_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/clock_choices_personel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd"
+        android:padding="10dp"
+        android:textColor="#777777" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/clock_choices_rcy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <include
+        layout="@layout/progress"
+        android:visibility="gone" />
+
+</LinearLayout>

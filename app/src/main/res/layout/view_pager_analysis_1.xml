@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_pager_layout_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hair_analysis_1a"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_marginStart="10dp"
+            android:id="@+id/analysis_group_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/analysis_rb_man"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="1A"
+                android:text="@string/hair_analysis_1a1" />
+
+            <RadioButton
+                android:id="@+id/analysis_rb_woman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="1B"
+                android:text="@string/hair_analysis_1a2" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/analysis_forward_btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/forward_button_shape"
+        android:text="@string/forward"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

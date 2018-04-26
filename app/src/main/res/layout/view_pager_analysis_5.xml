@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:id="@+id/view_pager_layout_5"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/analysis_forward_btn_5"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hair_analysis_5a"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/analysis_group_5A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A1"
+                        android:text="@string/hair_analysis_5a1" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A2"
+                        android:text="@string/hair_analysis_5a2" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A3"
+                        android:text="@string/hair_analysis_5a3" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A4"
+                        android:text="@string/hair_analysis_5a4" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A5"
+                        android:text="@string/hair_analysis_5a5" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A6"
+                        android:text="@string/hair_analysis_5a6" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A7"
+                        android:text="@string/hair_analysis_5a7" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A8"
+                        android:text="@string/hair_analysis_5a8" />
+
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A9"
+                        android:text="@string/hair_analysis_5a9" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5a10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5A10"
+                        android:text="@string/hair_analysis_5a10" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hair_analysis_5b"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/analysis_group_5B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B1"
+                        android:text="@string/hair_analysis_5b1" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B2"
+                        android:text="@string/hair_analysis_5b2" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B3"
+                        android:text="@string/hair_analysis_5b3" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B4"
+                        android:text="@string/hair_analysis_5b4" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B5"
+                        android:text="@string/hair_analysis_5b5" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B6"
+                        android:text="@string/hair_analysis_5b6" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B7"
+                        android:text="@string/hair_analysis_5b7" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B8"
+                        android:text="@string/hair_analysis_5b8" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B9"
+                        android:text="@string/hair_analysis_5b9" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_5b10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="5B10"
+                        android:text="@string/hair_analysis_5b10" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hair_analysis_hair_3c"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/analysis_group_3C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_ince"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="3C1"
+                        android:text="@string/hair_analysis_3c1" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="3C2"
+                        android:text="@string/hair_analysis_3c2" />
+
+                    <RadioButton
+                        android:id="@+id/analysis_rb_kalin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:tag="3C3"
+                        android:text="@string/hair_analysis_3c3" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/analysis_back_btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/forward_button_shape"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/analysis_forward_btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/forward_button_shape"
+        android:text="@string/forward"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

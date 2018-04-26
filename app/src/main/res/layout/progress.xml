@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6ffffff"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="visible">
+
+    <com.wang.avi.AVLoadingIndicatorView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        app:indicatorColor="@color/main_color"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />
+</RelativeLayout>

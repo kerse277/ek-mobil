@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_page"
+            android:icon="@drawable/ic_left_menu_home"
+            android:title="@string/menu_main_page" />
+        <item
+            android:id="@+id/nav_online_shop"
+            android:icon="@drawable/ic_left_menu_magaza"
+            android:title="@string/menu_online_shop" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_left_menu_appointment"
+            android:title="@string/menu_appointment" />
+        <item
+            android:id="@+id/nav_price_list"
+            android:icon="@drawable/ic_left_menu_price"
+            android:title="@string/menu_price_list" />
+        <item
+            android:id="@+id/nav_campains"
+            android:icon="@drawable/ic_left_menu_campains"
+            android:title="@string/menu_campaigns" />
+
+        <item
+            android:id="@+id/nav_personel"
+            android:icon="@drawable/ic_left_menu_team"
+            android:title="@string/menu_personel" />
+        <item
+            android:id="@+id/nav_hair_analysis"
+            android:icon="@drawable/ic_left_menu_hair_analysis"
+            android:title="@string/menu_hair_analysis" />
+        <item
+            android:id="@+id/nav_hair_secrets_blog"
+            android:icon="@drawable/ic_left_menu_hair_secret"
+            android:title="@string/menu_hair_secrets_blog" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/ic_left_menu_address"
+            android:title="@string/menu_address" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_left_menu_profile"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_left_menu_message"
+            android:title="@string/menu_help" />
+    </group>
+</menu>

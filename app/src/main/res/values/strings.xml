@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">EK Mobil</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_online_shop">Online Mağaza</string>
+    <string name="menu_appointment">Randevu</string>
+    <string name="menu_price_list">Fiyat Listesi</string>
+    <string name="menu_campaigns">Kampanyalar</string>
+    <string name="menu_hair_analysis">Saç Analizi</string>
+    <string name="menu_hair_secrets_blog">Saç Sırları Blog</string>
+    <string name="menu_address">Adres</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_help">Yardım</string>
+
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_logout">Çıkış</string>
+
+    <string name="connection_error_title">Hata</string>
+    <string name="connection_error_message">Lütfen internet bağlantınızı kontrol ediniz.</string>
+
+    <string name="messages_ok">Tamam</string>
+    <string name="messages_error">Hata</string>
+    <string name="messages_info">Bilgi</string>
+
+    <string name="messages_signup_success">Kayıt başarılı. Giriş ekranına yönlendiriliyorsunuz..</string>
+    <string name="messages_blank_field">Lütfen boş alanları doldurunuz.</string>
+    <string name="messages_password_do_not_match">Şifreler uyuşmamaktadır.</string>
+
+
+    <string name="popup_make_an_appointment">Randevu Al</string>
+    <string name="popup_default_hair_dresser">Varsayılan kuaförüm yap</string>
+    <string name="popup_phone">Telefon aç</string>
+    <string name="popup_sms">Mesaj gönder</string>
+
+    <string name="login_username">Kullanıcı Adı</string>
+    <string name="login_password">Şifre</string>
+    <string name="login_btn">Giriş</string>
+    <string name="login_signup">Kayıt olmak için tıklayınız</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_blank_field">Kullanıcı adı ve şifre boş geçilemez</string>
+    <string name="login_wrong_username_or_password">Kullanıcı adı veya şifre yanlış</string>
+    <string name="login_unexpected_error">Beklenmeyen bir hata oluştu</string>
+
+    <string name="signup_username">Kullanıcı Adı</string>
+    <string name="signup_password">Şifre</string>
+    <string name="signup_password_again">Şifre Tekrar</string>
+    <string name="signup_mail">E-mail</string>
+    <string name="signup_phone">Telefon</string>
+    <string name="signup_name_surname">Ad Soyad</string>
+    <string name="signup_btn">Kaydol</string>
+    <string name="inbox">Gelen Kutusu</string>
+    <string name="inbox_header">Mesajlarım</string>
+    <string name="messages_qr_need_permission">Kamerayı kullanabilmek için izin vermelisiniz.</string>
+    <string name="dialog_camera_send">Gönder</string>
+    <string name="dialog_camera_cancel">İptal</string>
+    <string name="remember_me">Beni Hatırla</string>
+
+
+    <string name="facebook_app_id">163243681040313</string>
+    <string name="fb_login_protocol_scheme">fb163243681040313</string>
+    <string name="hair_analysis_1a">Cinsiyetiniz :</string>
+    <string name="hair_analysis_1a1">Erkek</string>
+    <string name="hair_analysis_1a2">Kadın</string>
+    <string name="forward">İleri</string>
+    <string name="hair_analysis_2a">Saç Tipi:</string>
+    <string name="hair_analysis_2a1">Doğal</string>
+    <string name="hair_analysis_2a2">Boyalı</string>
+    <string name="hair_analysis_2a3">Röfleli</string>
+    <string name="hair_analysis_2a4">Permalı</string>
+    <string name="hair_analysis_2a5">Düzleştirilmiş</string>
+    <string name="hair_analysis_hair_2b">Saç Çapı:</string>
+    <string name="hair_analysis_2b1">İnce Telli</string>
+    <string name="hair_analysis_2b2">Normal</string>
+    <string name="hair_analysis_2b3">Kalın Telli</string>
+    <string name="hair_analysis_3a">Saçlarınızı ne sıklıkla yıkıyorsunuz?</string>
+    <string name="hair_analysis_3a1">Hergün</string>
+    <string name="hair_analysis_3a2">İki günde bir</string>
+    <string name="hair_analysis_3a3">Haftada iki kere</string>
+    <string name="hair_analysis_3a4">Haftada bir kere</string>
+    <string name="hair_analysis_3b">Ne sıklıkla bakım ürünü kullanıyorsunuz?(Durulanmayan/Saç Kremi/Saç Maskesi)</string>
+    <string name="hair_analysis_3b1">Herzaman</string>
+    <string name="hair_analysis_3b2">sıklıkla</string>
+    <string name="hair_analysis_3b3">Bazen</string>
+    <string name="hair_analysis_3b4">Hiç</string>
+    <string name="hair_analysis_hair_3c">Ne sıklıkla ısıyla şekillendirme aracı kullanıyorsunuz?(Saç Kurutma Makinesi/Düzleştirici)</string>
+    <string name="hair_analysis_3c1">Hergün</string>
+    <string name="hair_analysis_3c2">Bazen</string>
+    <string name="hair_analysis_3c3">Hiç</string>
+    <string name="hair_analysis_4a">Yağlı deriniz ile ilgili sorununuz?</string>
+    <string name="hair_analysis_4a1">Yağlı</string>
+    <string name="hair_analysis_4a2">Kepekli</string>
+    <string name="hair_analysis_4a3">Kaşınma veya hassas saç derisi</string>
+    <string name="hair_analysis_4a4">Saç dökülmesi</string>
+    <string name="hair_analysis_4a5">Saç derim ile ilgili bir sorunum yok</string>
+    <string name="hair_analysis_5a">Saçlarınız ile ilgili en önemli isteğiniz?</string>
+    <string name="hair_analysis_5a1">Yumuşak</string>
+    <string name="hair_analysis_5a2">Daha parlak</string>
+    <string name="hair_analysis_5a3">Kırılmaya karşı daha dayanıklı</string>
+    <string name="hair_analysis_5a4"><![CDATA[Daha doğal & Işıltılı]]></string>
+    <string name="hair_analysis_5a5">Daha hacimli</string>
+    <string name="hair_analysis_5a6">Daha yoğun</string>
+    <string name="hair_analysis_5a7">Daha uzun süreli canlı renkli</string>
+    <string name="hair_analysis_5a8">Kontrol edilebilen, elektriklenmeyen</string>
+    <string name="hair_analysis_5a9">Kontrol edilebilen, belirgin bukleli</string>
+    <string name="hair_analysis_5a10">Canlı</string>
+    <string name="hair_analysis_5b">Saçlarınızın başka nasıl olmasını isterdiniz?</string>
+    <string name="hair_analysis_5b1">Yumuşak</string>
+    <string name="hair_analysis_5b2">Daha Parlak</string>
+    <string name="hair_analysis_5b3">Kırılmaya karşı dayanıklı</string>
+    <string name="hair_analysis_5b4"><![CDATA[Daha doğal & Işıltılı]]></string>
+    <string name="hair_analysis_5b5">Daha hacimli</string>
+    <string name="hair_analysis_5b6">Daha yoğun</string>
+    <string name="hair_analysis_5b7">Daha uzun süreli canlı renkli</string>
+    <string name="hair_analysis_5b8">Kontrol edilebilen, elektriklenmeyen</string>
+    <string name="hair_analysis_5b9">Kontrol edilebilen, belirgin bukleli</string>
+    <string name="hair_analysis_5b10">Canlı</string>
+    <string name="hair_analysis_6a">Saçlarınızı nasıl şekillendirmeyi seversiniz?</string>
+    <string name="hair_analysis_6a1">Ekstra hacimli</string>
+    <string name="hair_analysis_6a2">Rahatlıkla fön çekilmesi</string>
+    <string name="hair_analysis_6a3">Daha belirgin Bukleler</string>
+    <string name="hair_analysis_6a4">Belirli bir tercihim yok</string>
+    <string name="hair_analysis_7a">Saç derinizin hareketliliğini test ettiğinizde</string>
+    <string name="hair_analysis_7a1">İyi</string>
+    <string name="hair_analysis_7a2">Ortalama</string>
+    <string name="hair_analysis_7a3">Gergin</string>
+    <string name="hair_analysis_7b">Saç derinizin durumunu değerlendirdiğimde, saç deriniz</string>
+    <string name="hair_analysis_7B1">Sorunsuz</string>
+    <string name="hair_analysis_7b2">Fazla sebumlu</string>
+    <string name="hair_analysis_7b3">Kepekli</string>
+    <string name="hair_analysis_7b4">Yoğunluğu azalmış</string>
+    <string name="hair_analysis_7b5">Hassas/Kızarık/Kaşıntılı</string>
+    <string name="hair_analysis_7b6">Saç dökülmesi yaşıyor</string>
+    <string name="hair_analysis_7c">Saçlarınızın uçları diplerinizle karşılaştırıldığımda saçlarınızın uçları</string>
+    <string name="hair_analysis_7C1">Parlak</string>
+    <string name="hair_analysis_7c2">Mat</string>
+    <string name="hair_analysis_7d">Saçlarınıza dayanıklılık testi yaptığımda</string>
+    <string name="hair_analysis_7d1">Kolayca kırılıyor(erozyon süresi 3-4)</string>
+    <string name="hair_analysis_7d2">Esniyor ancak elastik değil(erozyon süresi 1-2)</string>
+    <string name="hair_analysis_7d3">Elastikliği iyi</string>
+    <string name="hair_analysis_7e">Saçlarınıza kuruluk testi yaptığımda</string>
+    <string name="hair_analysis_7e1">Normal</string>
+    <string name="hair_analysis_7e2">Kuru</string>
+    <string name="hair_analysis_7e3">Aşırı Kuru</string>
+    <string name="hair_analysis_7f">Saç derinizin kontrol edilebilirliğini test ettiğimde</string>
+    <string name="hair_analysis_7f1">Açılması kolay</string>
+    <string name="hair_analysis_7f2">kontrol edilmesi güç</string>
+    <string name="hair_analysis_7f3">Elektiriklenmeye meyilli</string>
+    <string name="hair_analysis_7f4">Kıvırcık ve kontrol etmesi güç</string>
+    <string name="back">Geri</string>
+    <string name="empty_field">Lütfen boş alanları doldurunuz..</string>
+    <string name="send">Gönder</string>
+    <string name="product_cannot_be_found">Ürün bulunamadı.</string>
+    <string name="are_you_sure_to_logout">Çıkmak istediğinize emin misiniz?</string>
+    <string name="messages_no">Hayır</string>
+    <string name="messages_yes">Evet</string>
+    <string name="btn_continue">Devam et</string>
+    <string name="calendar_must_not_be_empty">Lütfen önce tarih seçiniz</string>
+    <string name="appointment_date_error">Seçilen tarih bugünden önce olamaz</string>
+    <string name="choice_appointment_date">Randevu Saatini Seçiniz</string>
+    <string name="dialog_choice_clock_title">Saat Seçiniz</string>
+    <string name="appointment_inner_title">Yapılacak işlemi tamamlayınız</string>
+    <string name="hair_dresser">Kuaförünüz</string>
+    <string name="appointment_date">Rezervasyon günü</string>
+    <string name="appointment_clock">Rezervasyon saati</string>
+    <string name="appointment_inner_footer">Randevunuzun bitiş saati yaptıracağınız işleme göre farklılık gösterebilir. Zaman ayarlaması kuaförünüz tarafından yapılacaktır. Dilerseniz yaptıracağınız işlem hakkında bilgi vererek yardımcı olabilirsiniz.</string>
+    <string name="complete_appointment">Rezervasyonu tamamla</string>
+    <string name="choice_process">Lütfen yaptırmak istediğiniz işlemi seçiniz</string>
+
+    <string name="google_api_key">AIzaSyDUyawYGfVoiWucQkBuEBhfi54mKq7Pzsc</string>
+    <string name="cancel">İptal</string>
+    <string name="dialog_choice_personel_title">Personel Seçiniz</string>
+    <string name="could_not_find_personel">Personel bulunamadı.</string>
+    <string name="unexpected_error">Beklenmeyen bir hata oluştu</string>
+    <string name="post_image_success">Resminiz başarıyla gönderilmiştir.</string>
+    <string name="menu_main_page">Anasayfa</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="comment">Yorum Yap</string>
+    <string name="add_favorite_success">Resminiz başarılı bir şekilde favorilerinize eklenmiştir.</string>
+    <string name="appointment_service">Hizmet</string>
+    <string name="appointment_success">Randevunuz başarıyla alınmıştır.</string>
+    <string name="taken_appointment">Randevunuz alınmıştır.</string>
+    <string name="signup_update">Güncelle</string>
+    <string name="update_success">Güncelleme başarılı bir şekilde gerçekleştirildi</string>
+    <string name="my_favorites">Favorilerim</string>
+    <string name="my_category">Kategoriler</string>
+    <string name="campains">Kampanyalar</string>
+    <string name="menu_personel">Ekibimiz</string>
+    <string name="profession">Uzmanlık</string>
+    <string name="address">Adres</string>
+    <string name="bio">Biyografi</string>
+</resources>
